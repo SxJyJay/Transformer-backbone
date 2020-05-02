@@ -2,7 +2,7 @@
 This is the reproduce of Transformer architecture in paper ["Attention is all your need"](https://arxiv.org/abs/1706.03762). 
 The aim of this repository is to help those who want an insight to the details of Transformer realization, without being bothered with data preprocessing.    
 The structure of Transformer is illustrated as bellow  
-![Transformer](https://camo.githubusercontent.com/88e8f36ce61dedfd2491885b8df2f68c4d1f92f5/687474703a2f2f696d6775722e636f6d2f316b72463252362e706e67)
+<img src="./pic/structure.png" width="400" height="600" alt='' align=center />
 
 Thus, we build the network hierarchically. From the top to bottom level is  
 
@@ -40,4 +40,9 @@ the tree structure is shown as bellow:
 3. GPU requirement: 4 TitanX  
 
 # Performance
+## &nbsp;&nbsp;&nbsp;Loss&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Accuracy
+<img src="./pic/loss.png" width="300" height="300" alt='' align=center /><img src="./pic/loss.png" width="300" height="300" alt='' align=center />
 
+# Acknowledgement
+* The data interface is borrowed from ["A PyTorch implementation of the Transformer model in "Attention is All You Need"."](https://github.com/jadore801120/attention-is-all-you-need-pytorch)
+* Another outstanding work ["The Annotated Transformer"](http://nlp.seas.harvard.edu/2018/04/03/attention.html) inspired me during my coding process
