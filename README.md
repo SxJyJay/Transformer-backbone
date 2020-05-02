@@ -1,2 +1,2 @@
-# Transformer-backbone
-The reproduce of Transformer architecture in paper "Attention is all your need"
+## Transformer-backbone
+This is the reproduce of Transformer architecture in paper "Attention is all your need"
