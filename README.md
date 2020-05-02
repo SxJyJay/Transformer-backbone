@@ -36,4 +36,8 @@ the tree structure is shown as bellow:
 ## WMT'17 Multimodal Translation: de-en BPE  
 1. The byte-pair-encoding has already been processed so that you can focus on the specific structure of Transformer
 2. Train the model  
-```python train.py -data_pkl ./bpe_deen/bpe_vocab.pkl -train_path ./bpe_deen/deen-train -val_path ./bpe_deen/deen-val -log deen_bpe -embs_share_weight -proj_share_weight -label_smoothing -save_model trained -b 256 -warmup 128000 -epoch 400```
+```python train.py -data_pkl ./bpe_deen/bpe_vocab.pkl -train_path ./bpe_deen/deen-train -val_path ./bpe_deen/deen-val -log deen_bpe -label_smoothing -save_model trained -b 256 -warmup 128000 -epoch 400```  
+3. GPU requirement: 4 TitanX  
+
+# Performance
+
