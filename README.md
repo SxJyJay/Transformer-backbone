@@ -41,7 +41,7 @@ the tree structure is shown as bellow:
 
 # Performance
 ## &nbsp;&nbsp;&nbsp;Loss&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Accuracy
-<img src="./pic/loss.png" width="300" height="300" alt='' align=center /><img src="./pic/loss.png" width="300" height="300" alt='' align=center />
+<img src="./pic/loss.png" width="300" height="300" alt='' align=center /><img src="./pic/acc.png" width="300" height="300" alt='' align=center />
 
 # Acknowledgement
 * The data interface is borrowed from ["A PyTorch implementation of the Transformer model in "Attention is All You Need"."](https://github.com/jadore801120/attention-is-all-you-need-pytorch)
